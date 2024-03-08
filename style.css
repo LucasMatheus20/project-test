@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+
+    font-family: 'Azeret' ;
+    src: url('fontes/AzeretMono-wght.ttf') format(Truetype) ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root{
+    --cor01:#0A3A40;
+    --cor02:#042326;
+    --cor03:#0F5959;
+
+   
+    --fonte-mono: Azeret, Arial, Verdana, Helvética;
+    --fonte-conteudo: Open Sans, sans-serif; 
+}
+
+body{
+    background-color: var(--cor02);
+   
+
+
+}
+nav{
+    background-color: var(--cor02);
+    font-family: var(--fonte-mono);
+    
+
+}
+nav a{
+    padding: 20px;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-weight: bolder;
+   
+
+    
+    
+    
+
+}
+nav div{
+  display:inline-block;
+
+  
+  border-radius: 5px;
+  background-color: var(--cor01);
+  color: white;
+  box-shadow: 0px 0px 10px black;
+  margin: 20px auto;
+ 
+ 
+  
+
+}
+nav .Home{
+    border-width: 2px;
+    
+   
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    
+
+}
+nav .more{
+    border-width: 2px;
+   
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+
+}
+nav .jogos{
+    border-width: 2px;
+  
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+nav .curiosidades{
+    border-width: 2px;
+   
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+header{
+    color: white;
+    background-color: var(--cor01);
+    max-width: 100%;
+    min-width: 120px;
+    height: 120px;
+  
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    margin: 20px auto;
+   
+
+   
+
+   
+
+
+}
+header h1{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: var(--fonte-mono);
+   
+    
+
+}
+header p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: var(--fonte-conteudo);
+    
+    
+
+}
+main{
+    background-color: var(--cor01);
+    min-width: 400px;
+    max-width: 1000px;
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+   
+    line-height: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding: 20px;
+    margin: 20px auto;
+    border-width: 2px;
+    
+   
+    font-family: var(--fonte-conteudo);
+
+    
+
+    
+
+    
+
+}
+main p{
+    padding: 10px;
+}
+main h1{
+    padding: 15px;
+    font-family: var(--fonte-mono);
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 0px 2px 8px black;
+    text-align: center;
+}
+
+
+main h2{
+    font-family: var(--fonte-mono);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0px 0px 8px black;
+}
+ 
+ 
+main h3{
+    font-family: var(--fonte-mono);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+   
+    border-width: 1px;
+    box-shadow: 0px 0px 8px black;
+}
+
+
+nav div:hover{
+    background-color: lightseagreen;
+    transition-duration: .5s;
+    opacity: 52%;
+    color: white;
+  
+}
+.final{
+    height: 400px;
+    min-height: 325px;
+    max-width: 800px;
+
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0px 0px 8px black;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: var(--cor03);    
+
+
+}
+.final ul {
+    list-style-position: inside;
+    padding-left: 30px;
+}
+picture img{
+    width: 70%;
+    display: block;
+    margin: auto;
+  
+
+   
+
+}
+ picture img.P{
+    width: 40%;
+
+            }
+
+.video{
+    position: relative;
+    background-color: transparent;
+    margin-left: 45px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 60%;
+
+
+}
+.video iframe{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90%;
+    height: 90%;
+}
+footer{
+  
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0px 0px 8px black;
+    background-color: var(--cor02);
+    color: white;
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    height: 40px;
+    max-width: 100%;
+    min-width: 300px;
+
+    
+
+
+}
+    
+
+
+
